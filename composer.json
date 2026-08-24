@@ -1,19 +1,15 @@
 {
     "name": "artisan-build/sink-server",
     "description": "The receive/store/serve side of Sink: ingest, parse, storage, prune, inbox UI, and the read-only MCP server. Consumed by the Sink app.",
-    "keywords": ["sink", "mail", "laravel", "mcp", "testing"],
+    "keywords": [
+        "sink",
+        "mail",
+        "laravel",
+        "mcp",
+        "testing"
+    ],
     "license": "MIT",
     "type": "library",
-    "version": "1.0.0",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../sink-contracts",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "require": {
         "php": "^8.3",
         "artisan-build/built-for-cloud": "^0.3",
